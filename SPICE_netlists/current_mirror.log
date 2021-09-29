@@ -1,0 +1,50 @@
+******
+** ngspice-33 : Circuit level simulation program
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2020, The ngspice team.
+** Please get your ngspice manual from http://ngspice.sourceforge.net/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+** Creation Date: Sun Oct 18 10:31:52 UTC 2020
+******
+
+Circuit: *current mirror with bjt
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                 qload                  qpgm
+      model               q2n3904               q2n3904
+         ic            0.00208754             0.0018827
+         ib           1.31528e-05           1.31528e-05
+         ie            -0.0021007           -0.00189585
+        vbe               0.68243               0.68243
+        vbc              -8.05289            0.00175116
+         gm             0.0785301             0.0708216
+        gpi           0.000440884           0.000440884
+        gmu                 1e-12           1.37795e-12
+         gx                   0.1                   0.1
+         go           2.54322e-05           2.54322e-05
+        cpi           3.01826e-11            2.7863e-11
+        cmu           1.70178e-12           3.64062e-12
+        cbx                     0                     0
+       csub                     0                     0
+
+ Vsource: Independent voltage source
+     device                    v1
+         dc                    15
+      acmag                     0
+      pulse         -
+        sin         -
+        exp         -
+        pwl         -
+       sffm         -
+         am         -
+    trnoise         -
+   trrandom         -
+          i           -0.00399652
+          p            -0.0599479
+
+ngspice 1 -> 

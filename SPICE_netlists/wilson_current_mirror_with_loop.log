@@ -1,0 +1,589 @@
+******
+** ngspice-33 : Circuit level simulation program
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2020, The ngspice team.
+** Please get your ngspice manual from http://ngspice.sourceforge.net/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+** Creation Date: Sun Oct 18 10:31:52 UTC 2020
+******
+
+Circuit: *wilson current mirror with bjt
+
+**********************************
+Running sim with RLoad:"0"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000905685           0.000897936           0.000905926
+         ib           5.95925e-06           6.85463e-06           6.85463e-06
+         ie          -0.000911645          -0.000904791          -0.000912781
+        vbe              0.658692              0.662907              0.662907
+        vbc              -13.6774           0.000829389             -0.657915
+         gm             0.0346138             0.0342497             0.0345545
+        gpi           0.000197771            0.00022788            0.00022788
+        gmu                 1e-12           1.36472e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go           1.03262e-05           1.21295e-05           1.21295e-05
+        cpi           1.68614e-11           1.67682e-11             1.686e-11
+        cmu            1.4612e-12           3.63924e-12            2.9956e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                 0.001                 15000
+         ac                 0.001                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000905685           0.000911885
+          p           8.20266e-10              0.012473
+
+**********************************
+Running sim with RLoad:"1000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000905558           0.000897862           0.000905855
+         ib           6.01247e-06           6.85414e-06           6.85414e-06
+         ie           -0.00091157          -0.000904717          -0.000912709
+        vbe               0.65896              0.662904              0.662904
+        vbc              -12.7716            0.00082932             -0.658183
+         gm             0.0346049             0.0342469             0.0345519
+        gpi           0.000199559           0.000227863           0.000227863
+        gmu                 1e-12           1.36472e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go           1.04325e-05           1.21285e-05           1.21285e-05
+        cpi           1.68597e-11           1.67674e-11           1.68592e-11
+        cmu           1.49072e-12           3.63924e-12           2.99542e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                  1000                 15000
+         ac                  1000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000905558           0.000911867
+          p           0.000820035             0.0124725
+
+**********************************
+Running sim with RLoad:"2000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000905428           0.000897788           0.000905783
+         ib           6.06672e-06           6.85364e-06           6.85364e-06
+         ie          -0.000911494          -0.000904641          -0.000912637
+        vbe              0.659231              0.662902              0.662902
+        vbc               -11.866           0.000829251             -0.658454
+         gm             0.0345958             0.0342441             0.0345491
+        gpi           0.000201382           0.000227846           0.000227846
+        gmu                 1e-12           1.36472e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go            1.0541e-05           1.21275e-05           1.21275e-05
+        cpi            1.6858e-11           1.67665e-11           1.68584e-11
+        cmu           1.52295e-12           3.63924e-12           2.99524e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                  2000                 15000
+         ac                  2000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000905428           0.000911849
+          p             0.0016396              0.012472
+
+**********************************
+Running sim with RLoad:"3000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000905295           0.000897712            0.00090571
+         ib           6.12204e-06           6.85313e-06           6.85313e-06
+         ie          -0.000911417          -0.000904565          -0.000912563
+        vbe              0.659504                0.6629                0.6629
+        vbc              -10.9607            0.00082918             -0.658728
+         gm             0.0345865             0.0342412             0.0345464
+        gpi           0.000203241           0.000227829           0.000227829
+        gmu                 1e-12           1.36472e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go           1.06517e-05           1.21265e-05           1.21265e-05
+        cpi           1.68563e-11           1.67656e-11           1.68575e-11
+        cmu           1.55834e-12           3.63924e-12           2.99506e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                  3000                 15000
+         ac                  3000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000905295           0.000911831
+          p            0.00245868             0.0124715
+
+**********************************
+Running sim with RLoad:"4000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic            0.00090516           0.000897634           0.000905635
+         ib           6.17845e-06           6.85262e-06           6.85262e-06
+         ie          -0.000911339          -0.000904487          -0.000912488
+        vbe              0.659781              0.662898              0.662898
+        vbc              -10.0557           0.000829107             -0.659005
+         gm              0.034577             0.0342383             0.0345436
+        gpi           0.000205136           0.000227812           0.000227812
+        gmu                 1e-12           1.36472e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go           1.07647e-05           1.21254e-05           1.21254e-05
+        cpi           1.68545e-11           1.67647e-11           1.68567e-11
+        cmu           1.59749e-12           3.63924e-12           2.99488e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                  4000                 15000
+         ac                  4000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i            0.00090516           0.000911813
+          p            0.00327726              0.012471
+
+**********************************
+Running sim with RLoad:"5000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000905023           0.000897555           0.000905559
+         ib           6.23598e-06            6.8521e-06           6.85209e-06
+         ie          -0.000911259          -0.000904408          -0.000912411
+        vbe               0.66006              0.662895              0.662895
+        vbc              -9.15096           0.000829034             -0.659285
+         gm             0.0345674             0.0342353             0.0345407
+        gpi            0.00020707           0.000227794           0.000227794
+        gmu                 1e-12           1.36472e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go           1.08802e-05           1.21243e-05           1.21243e-05
+        cpi           1.68527e-11           1.67638e-11           1.68558e-11
+        cmu           1.64117e-12           3.63924e-12            2.9947e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                  5000                 15000
+         ac                  5000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000905023           0.000911794
+          p            0.00409533             0.0124705
+
+**********************************
+Running sim with RLoad:"6000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000904883           0.000897475           0.000905482
+         ib           6.29468e-06           6.85156e-06           6.85156e-06
+         ie          -0.000911178          -0.000904327          -0.000912333
+        vbe              0.660342              0.662893              0.662893
+        vbc              -8.24649           0.000828959             -0.659568
+         gm             0.0345576             0.0342323             0.0345378
+        gpi           0.000209044           0.000227777           0.000227777
+        gmu                 1e-12           1.36472e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go           1.09981e-05           1.21233e-05           1.21233e-05
+        cpi           1.68508e-11           1.67629e-11           1.68549e-11
+        cmu           1.69039e-12           3.63924e-12           2.99451e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                  6000                 15000
+         ac                  6000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000904883           0.000911776
+          p            0.00491288               0.01247
+
+**********************************
+Running sim with RLoad:"7000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000904741           0.000897394           0.000905403
+         ib           6.35458e-06           6.85102e-06           6.85102e-06
+         ie          -0.000911095          -0.000904245          -0.000912254
+        vbe              0.660627              0.662891              0.662891
+        vbc              -7.34232           0.000828883             -0.659854
+         gm             0.0345476             0.0342292             0.0345348
+        gpi           0.000211058           0.000227758           0.000227758
+        gmu                 1e-12           1.36471e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go           1.11185e-05           1.21222e-05           1.21222e-05
+        cpi           1.68489e-11            1.6762e-11            1.6854e-11
+        cmu           1.74654e-12           3.63924e-12           2.99432e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                  7000                 15000
+         ac                  7000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000904741           0.000911757
+          p            0.00572989             0.0124695
+
+**********************************
+Running sim with RLoad:"8000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000904596           0.000897311           0.000905323
+         ib           6.41571e-06           6.85047e-06           6.85047e-06
+         ie          -0.000911011          -0.000904161          -0.000912173
+        vbe              0.660915              0.662888              0.662888
+        vbc              -6.43846           0.000828806             -0.660143
+         gm             0.0345374             0.0342261             0.0345318
+        gpi           0.000213113            0.00022774            0.00022774
+        gmu                 1e-12           1.36471e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go           1.12416e-05            1.2121e-05            1.2121e-05
+        cpi            1.6847e-11            1.6761e-11           1.68531e-11
+        cmu           1.81154e-12           3.63924e-12           2.99414e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                  8000                 15000
+         ac                  8000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000904595           0.000911738
+          p            0.00654634              0.012469
+
+**********************************
+Running sim with RLoad:"9000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000904448           0.000897226           0.000905241
+         ib           6.47812e-06           6.84991e-06           6.84991e-06
+         ie          -0.000910926          -0.000904076          -0.000912091
+        vbe              0.661207              0.662886              0.662886
+        vbc              -5.53491           0.000828727             -0.660435
+         gm             0.0345269             0.0342229             0.0345287
+        gpi           0.000215212           0.000227721           0.000227721
+        gmu                 1e-12           1.36471e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go           1.13674e-05           1.21199e-05           1.21199e-05
+        cpi            1.6845e-11           1.67601e-11           1.68522e-11
+        cmu           1.88818e-12           3.63924e-12           2.99394e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                  9000                 15000
+         ac                  9000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000904447           0.000911718
+          p            0.00736223             0.0124685
+
+**********************************
+Running sim with RLoad:"10000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000904297            0.00089714           0.000905158
+         ib           6.54184e-06           6.84933e-06           6.84933e-06
+         ie          -0.000910839           -0.00090399          -0.000912007
+        vbe              0.661501              0.662883              0.662883
+        vbc              -4.63168           0.000828646              -0.66073
+         gm             0.0345163             0.0342197             0.0345256
+        gpi           0.000217355           0.000227701           0.000227701
+        gmu                 1e-12           1.36471e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go            1.1496e-05           1.21187e-05           1.21187e-05
+        cpi           1.68429e-11           1.67591e-11           1.68512e-11
+        cmu           1.98076e-12           3.63924e-12           2.99375e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                 10000                 15000
+         ac                 10000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000904297           0.000911699
+          p            0.00817752             0.0124679
+
+**********************************
+Running sim with RLoad:"11000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000904143           0.000897053           0.000905073
+         ib           6.60692e-06           6.84875e-06           6.84875e-06
+         ie           -0.00091075          -0.000903901          -0.000911922
+        vbe              0.661799              0.662881              0.662881
+        vbc              -3.72878           0.000828565             -0.661029
+         gm             0.0345055             0.0342164             0.0345224
+        gpi           0.000219545           0.000227682           0.000227682
+        gmu                 1e-12           1.36471e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go           1.16275e-05           1.21176e-05           1.21176e-05
+        cpi           1.68408e-11           1.67581e-11           1.68502e-11
+        cmu           2.09622e-12           3.63924e-12           2.99356e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                 11000                 15000
+         ac                 11000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000904143           0.000911679
+          p            0.00899221             0.0124674
+
+**********************************
+Running sim with RLoad:"12000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000903986           0.000896963           0.000904986
+         ib           6.67341e-06           6.84816e-06           6.84816e-06
+         ie          -0.000910659          -0.000903812          -0.000911834
+        vbe                0.6621              0.662878              0.662878
+        vbc              -2.82622           0.000828481             -0.661331
+         gm             0.0344944              0.034213             0.0345192
+        gpi           0.000221781           0.000227662           0.000227662
+        gmu                 1e-12           1.36471e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go            1.1762e-05           1.21164e-05           1.21164e-05
+        cpi           1.68387e-11           1.67571e-11           1.68492e-11
+        cmu           2.24692e-12           3.63924e-12           2.99336e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                 12000                 15000
+         ac                 12000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000903986           0.000911659
+          p            0.00980628             0.0124668
+
+**********************************
+Running sim with RLoad:"13000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000903826           0.000896872           0.000904898
+         ib           6.74134e-06           6.84755e-06           6.84755e-06
+         ie          -0.000910567           -0.00090372          -0.000911746
+        vbe              0.662405              0.662875              0.662875
+        vbc              -1.92402           0.000828396             -0.661636
+         gm             0.0344831             0.0342096             0.0345158
+        gpi           0.000224067           0.000227641           0.000227641
+        gmu                 1e-12           1.36471e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go           1.18996e-05           1.21151e-05           1.21151e-05
+        cpi           1.68365e-11            1.6756e-11           1.68482e-11
+        cmu           2.45776e-12           3.63924e-12           2.99316e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                 13000                 15000
+         ac                 13000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000903825           0.000911639
+          p             0.0106197             0.0124663
+
+**********************************
+Running sim with RLoad:"14000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000903662            0.00089678           0.000904808
+         ib           6.81077e-06           6.84693e-06           6.84693e-06
+         ie          -0.000910473          -0.000903627          -0.000911655
+        vbe              0.662713              0.662873              0.662873
+        vbc              -1.02217            0.00082831             -0.661945
+         gm             0.0344715             0.0342061             0.0345125
+        gpi           0.000226404           0.000227621           0.000227621
+        gmu                 1e-12           1.36471e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go           1.20405e-05           1.21139e-05           1.21139e-05
+        cpi           1.68342e-11            1.6755e-11           1.68472e-11
+        cmu           2.79033e-12           3.63924e-12           2.99296e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                 14000                 15000
+         ac                 14000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000903662           0.000911618
+          p             0.0114325             0.0124657
+
+**********************************
+Running sim with RLoad:"15000"
+**********************************
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+ BJT: Bipolar Junction Transistor
+     device                qcheck                 qload                  qpgm
+      model               q2n3904               q2n3904               q2n3904
+         ic           0.000903496           0.000896685           0.000904717
+         ib           6.88175e-06            6.8463e-06            6.8463e-06
+         ie          -0.000910377          -0.000903531          -0.000911563
+        vbe              0.663025               0.66287               0.66287
+        vbc             -0.120704           0.000828221             -0.662258
+         gm             0.0344597             0.0342026              0.034509
+        gpi           0.000228793             0.0002276             0.0002276
+        gmu             1.003e-12           1.36471e-12                 1e-12
+         gx                   0.1                   0.1                   0.1
+         go           1.21846e-05           1.21126e-05           1.21126e-05
+        cpi           1.68319e-11           1.67539e-11           1.68462e-11
+        cmu           3.47431e-12           3.63924e-12           2.99275e-12
+        cbx                     0                     0                     0
+       csub                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                 rload                  rpgm
+      model                     R                     R
+ resistance                 15000                 15000
+         ac                 15000                 15000
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           0.000903495           0.000911598
+          p             0.0122446             0.0124652
+
+ngspice 1 -> 
