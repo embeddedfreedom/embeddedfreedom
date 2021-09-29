@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @embeddedfreedom
-- 👀 I’m interested in electronics and control systems
+- 👀 I’m interested in electronics
 - 💞️ I’m looking to collaborate on creating spice simulation models on Ngspice, for analog circuits
-- 💞️ I’m looking to collaborate on designing a multibody simulation environment for control systems on PyMunk
 - 📫 How to reach me ... embeddedfreedom@gmail.com
 
 <!---
